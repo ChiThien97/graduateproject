@@ -31,3 +31,29 @@ $factory->define(App\Models\Loaisanpham::class, static function (Faker\Generator
         
     ];
 });
+/** @var  \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Models\Sanpham::class, static function (Faker\Generator $faker) {
+    return [
+        
+        
+    ];
+});
+/** @var  \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Models\Sanpham::class, static function (Faker\Generator $faker) {
+    return [
+        'tensanpham' => $faker->sentence,
+        'slug' => $faker->unique()->slug,
+        'gia' => $faker->randomFloat,
+        'gia_km' => $faker->randomFloat,
+        'mota' => $faker->text(),
+        'hinhanh' => $faker->sentence,
+        'baohanh' => $faker->sentence,
+        'thongso' => $faker->text(),
+        'ngaytao' => $faker->date(),
+        'enabled' => $faker->boolean(),
+        'created_at' => $faker->dateTime,
+        'updated_at' => $faker->dateTime,
+        
+        
+    ];
+});

@@ -50,5 +50,45 @@ return [
         ],
     ],
 
+    'sanpham' => [
+        'title' => 'Sanpham',
+
+        'actions' => [
+            'index' => 'Sanpham',
+            'create' => 'New Sanpham',
+            'edit' => 'Edit :name',
+        ],
+
+        'columns' => [
+            'id' => 'ID',
+            
+        ],
+    ],
+
+    'sanpham' => [
+        'title' => 'Sanpham',
+
+        'actions' => [
+            'index' => 'Sanpham',
+            'create' => 'New Sanpham',
+            'edit' => 'Edit :name',
+        ],
+
+        'columns' => [
+            'id' => 'ID',
+            'tensanpham' => 'Tensanpham',
+            'slug' => 'Slug',
+            'gia' => 'Gia',
+            'gia_km' => 'Gia km',
+            'mota' => 'Mota',
+            'hinhanh' => 'Hinhanh',
+            'baohanh' => 'Baohanh',
+            'thongso' => 'Thongso',
+            'ngaytao' => 'Ngaytao',
+            'enabled' => 'Enabled',
+            
+        ],
+    ],
+
     // Do not delete me :) I'm used for auto-generation
 ];
